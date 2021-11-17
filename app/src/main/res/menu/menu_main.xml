@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_delete_24">
+
+    </item>
+
+    <item
+        android:id="@+id/close"
+        android:title="close"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_close_24">
+
+    </item>
+
+    <item
+        android:id="@+id/share"
+        android:title="share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"></item>
+
+
+</menu>
